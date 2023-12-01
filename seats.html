@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="seats.css" />
+    <title>Movie Seat Booking</title>
+    <nav>
+        <a href="#" class="logo">
+            <img src="images/logo3.png" />
+        </a>
+        <div class="search">
+            <input type="search" placeholder="Search" />
+            <i class="fas fa-search"></i>
+        </div>
+        <input type="checkbox" class="menu-btn" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="food.html">Food & Drinks</a></li>
+            <li><a href="sports.html">Sports</a></li>
+            <li><a href="seats.html">Book Now</a></li>
+            <li><a href="loginpage.html">Log In</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</head>
+
+<body>
+
+    <div class="movie-container">
+        <h1>
+            <label class="text">Select a movie</label>
+        </h1>
+        <select id="movie">
+            <option value="15">Ant Man ($15)</option>
+            <option value="22">Avengers ($22)</option>
+            <option value="18">Joker ($18)</option>
+            <option value="29">6 Underground ($29)</option>
+            <option value="15">Spider Man ($15)</option>
+            <option value="22">Mary Poppins ($22)</option>
+            <option value="18">Venom ($18)</option>
+        </select>
+    </div>
+    <h1>
+        <label class="text2">Select a Location</label>
+    </h1>
+    <div class="location-container">
+        <select id="location">
+            <option value="15">Pickering</option>
+            <option value="22">Ajax</option>
+            <option value="18">Oshawa</option>
+            <option value="29">Markham</option>
+            <option value="15">Downtown</option>
+            <option value="22">Scarborough</option>
+            <option value="18">Richmond Hill</option>
+        </select>
+    </div>
+
+
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <p FONT COLOR="#ff0000">AVAILABLE</p>
+        </li>
+        <li>
+            <div class="seat selected1"></div>
+            <p FONT COLOR="#ff0000">SELECTED</p>
+        </li>
+    </ul>
+
+    <div class="container">
+        <div class="screen"><img class="welcome" src="Screen.jpg" alt="" /></div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+    </div>
+
+    <h3 class="text">
+        You will reserve <span id="count">0</span> seats for a price of $<span id="price">0</span>. Please pay your fees at the theater.
+    </h3>
+
+    <div>
+        <button type="submit"> <a href="thx.html">Reserve My Seats</a></button>
+
+    </div>
+
+    <script src="seats.js" type="text/javascript"></script>
+</body>
+</html>

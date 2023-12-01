@@ -1,0 +1,214 @@
+﻿<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>BookSmart</title>
+<link rel="stylesheet" href="homepage.css">
+
+	<style>
+		body{
+
+            font-family: 'Open Sans', sans-serif;
+            background-color: black;
+		}
+	</style>
+	
+</head>
+
+<body>
+
+
+
+
+    <nav>
+        <a href="#" class="logo">
+            <img src="images/logo3.png" />
+        </a>
+        <div class="search">
+            <input type="search" placeholder="Search" />
+            <i class="fas fa-search"></i>
+        </div>
+        <input type="checkbox" class="menu-btn" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="food.html">Food & Drinks</a></li>
+            <li><a href="sports.html">Sports</a></li>
+            <li><a href="seats.html">Book Now</a></li>
+            <li><a href="loginpage.html">Log In</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+
+
+
+
+
+
+
+    <!--movies---------------------------->
+    <div class="movies-heading">
+        <h2>Movies</h2>
+    </div>
+    <section id="movies-list">
+        <!--box-1------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/after.png">
+            </div>
+            <!--text--------->
+            <a href="#">
+                After Everything
+            </a>
+        </div>
+        <!--box-2------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/sound.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Sound of Freedom
+            </a>
+        </div>
+        <!--box-3------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/fairp.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Fair Play
+            </a>
+        </div>
+        <!--box-4------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/lorax.png">
+            </div>
+            <!--text--------->
+            <a href="#">
+                The Lorax
+            </a>
+        </div>
+        <!--box-5------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/burial.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                The Burial
+            </a>
+        </div>
+        <!--box-6------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/outlaw.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                The Outlaws
+            </a>
+        </div>
+        <!--box-7------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/gadar.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Gadar 2
+            </a>
+        </div>
+        <!--box-8------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/tiger.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Tiger 3
+            </a>
+        </div>
+        
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/rocky.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Rocky Aur Raani
+            </a>
+        </div>
+
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/jug.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Jug Jug Jeeyo
+            </a>
+        </div>
+
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/jawan.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Jawan
+            </a>
+        </div>
+
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/sathya.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Sathya Ki Katha
+            </a>
+        </div>
+        
+    </section>
+    <!--footer------------------>
+    <footer>
+    </footer>
+
+    <!--using FontAwesome--------------->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+<script>
+
+$(document).ready(function() {
+    $('#autoWidth,#autoWidth2').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth,#autoWidth2').removeClass('cS-hidden');
+        } 
+    });  
+  });
+
+</script>
+</body>
+</html>
